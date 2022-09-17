@@ -74,7 +74,7 @@ while True:
     y1 = 0;y2 = 0;y3 = 0;y4 = 0;y5 = 0
 
     cv2.imshow("wt", imgx) #cv2.resize(imgx, (640,640))
-    cv2.imshow("wt1", cv2.resize(img, (500,500)))
+    #cv2.imshow("wt1", cv2.resize(img, (500,500)))
     cv2.waitKey(1)
     #time.sleep(0.15)
     if keyboard.is_pressed("x"):
